@@ -1,12 +1,14 @@
-#include "main.h"
+#include "main.h"
 
 /**
-*print_alphabet_x10 - make alphabet x10 times
-*Return:void
+*print_alphabet_x10 - make alphabet x10times
+*Return: void
 */
+
 void print_alphabet_x10(void)
 {
-char ch;
+
+chat ch;
 int i;
 i = 0;
 while (i < 10)
@@ -17,5 +19,6 @@ _putchar(ch);
 _putchar('\n');
 i++;
 }
+
 
 }
